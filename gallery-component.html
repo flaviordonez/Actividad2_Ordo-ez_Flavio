@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+
+    <!--Componente HEADER-->
+    <header-component></header-component>
+    <!--Componente MENU-->
+    <menu-component></menu-component>
+    <!--Componente FOOTER-->
+    <footer-component></footer-component>
+    <!--Componente GALLERY y SLOTS-->
+    <gallery-component endpoint="https://pokeapi.co/api/v2/pokemon?limit=100">
+        <h2>Galería de Pokemons</h2>
+        <p>Existen de todo tipo..</p>
+    </gallery-component>
+    
+
+    <!--Invocamos a todos los scrip necesarios--> 
+    <script src="./js/header-component.js"></script>
+    <script src="./js/menu-component.js"></script>
+    <script src="./js/footer-component.js"></script>
+    <script src="./js/gallery-component.js"></script>
+
+</body>
+</html>

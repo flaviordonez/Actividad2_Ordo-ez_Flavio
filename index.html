@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad_02</title>
+</head>
+<body>
+    
+    <!--Componente HEADER-->
+    <header-component></header-component>
+    <!--Componente MENU-->
+    <menu-component></menu-component>
+    <!--Componente MAIN donde le pasamos una imagen para la pantalla del main y un SLOT-->
+    <main-component
+        picture="images/portada.jpg">
+        <h1>Bienvenido a su APP</h1>
+    </main-component>    
+    <!--Componente FOOTER-->
+    <footer-component></footer-component>  
+         
+          
+    <!--Invocamos a todos los scrip necesarios-->   
+    <script src="./js/header-component.js"></script>
+    <script src="./js/menu-component.js"></script>
+    <script src="./js/main-component.js"></script>
+    <script src="./js/social-component.js"></script>    
+    <script src="./js/footer-component.js"></script> 
+
+</body>
+</html>
