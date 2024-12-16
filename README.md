@@ -1,4 +1,4 @@
-# Actividad2_Ordo-ez_Flavio
+# Actividad2_Ordoñez_Flavio
 Act2 pic 202451
 
 Estudiante: Flavio Mauricio Ordoñez Montero  
